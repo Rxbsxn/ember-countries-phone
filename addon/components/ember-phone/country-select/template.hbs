@@ -1,0 +1,11 @@
+{{#power-select
+  options=countries
+  placeholder=placeholder
+  selected=country
+  selectedItemComponent=selectedComponent
+  searchField=searchField
+  onchange=(action (mut country))
+as |country|
+}}
+  {{country.name}}
+{{/power-select}}
