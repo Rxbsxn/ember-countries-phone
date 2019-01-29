@@ -1,0 +1,26 @@
+.ember-phone {
+  display: flex;
+}
+
+.country-select {
+  flex: 0.5;
+}
+
+.country-flag {
+  flex: 0.5;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.country-dial-code {
+  margin-left: 5px;
+}
+
+.selected-country {
+  display: flex;
+}
+
+.phone-input {
+  height: 80%;
+  margin-left: 5px;
+}
