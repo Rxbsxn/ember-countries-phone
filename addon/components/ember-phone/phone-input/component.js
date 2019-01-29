@@ -8,8 +8,8 @@ export default Component.extend({
 
   minLength: "6",
   maxLength: "20",
-  phoneInputClass: "form-control",
-  phoneInputId: "inputPhone",
+  phoneInputClass: "phone-input",
+  phoneInputId: "phoneInput",
   disabled: false,
   placeholder: 'Phone number',
   required: true

@@ -1,12 +1,7 @@
-<div class="ember-phone">
-  {{ember-phone/country-select country=country}}
-  {{ember-phone/phone-input
-    phoneNumber=phoneNumber
-    disablePhoneInput=disablePhoneInput
-    phoneInputValidation=(action "phoneInputValidation")
-  }}
+{{ember-phone/country-select country=country}}
 
-  <button {{action "addDialCodeToPhoneNumber"}} disabled={{disabledButton}}>
-    Submit
-  </button>
-</div>
+{{ember-phone/phone-input
+  phoneNumber=phoneNumber
+  disablePhoneInput=disablePhoneInput
+  phoneInputValidation=(action "phoneInputValidation")
+}}
