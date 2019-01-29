@@ -1,1 +1,1 @@
-export { default } from 'ember-phone/components/ember-phone/phone-input/component';
+export { default } from 'ember-countries-phone/components/ember-phone/phone-input/component';
