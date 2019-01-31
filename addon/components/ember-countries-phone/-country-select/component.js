@@ -10,5 +10,5 @@ export default Component.extend({
   searchField: 'name',
   countries: countries(),
   placeholder: 'Country',
-  selectedComponent: 'ember-phone/country-select/selected'
+  selectedComponent: 'ember-countries-phone/-country-select/-selected'
 });
