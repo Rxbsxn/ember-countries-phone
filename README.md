@@ -1,13 +1,13 @@
-ember-phone
+<p>
+  <img src="https://github.com/Rxbsxn/ember-countries-phone/blob/master/ember-countries-phone.png" alt="Logo of Ember countries phone" width="100%">
+</p>
 ==============================================================================
 
-[Short description of the addon.]
-
+Improve your forms with Ember Countries phone by adding it in your projec to help you to handle countries dial codes, number validations
 Installation
 ------------------------------------------------------------------------------
-
 ```
-ember install ember-phone
+ember install ember-countries-phone
 ```
 
 
