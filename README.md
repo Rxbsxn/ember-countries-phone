@@ -1,23 +1,23 @@
 <p>
-  <img src="https://github.com/Rxbsxn/ember-countries-phone/blob/master/ember-countries-phone.png" alt="Logo of Ember countries phone" width="100%">
+  <img src="https://github.com/Rxbsxn/ember-countries-phone/blob/master/ember-countries-phone.png" alt="Logo of Ember countries phone" width="20%">
 </p>
-==============================================================================
 
-Improve your forms with Ember Countries phone by adding it in your projec to help you to handle countries dial codes, number validations
-Installation
-------------------------------------------------------------------------------
+### Ember Countries Phone
+Use Ember countries phone to handle problems with getting countries dial codes and phone number validation.
+
+### Installation
 ```
 ember install ember-countries-phone
 ```
 
 
-Usage
+### Usage
 ------------------------------------------------------------------------------
 
 [Longer description of how to use the addon in apps.]
 
 
-License
+### License
 ------------------------------------------------------------------------------
 
 This project is licensed under the [MIT License](LICENSE.md).
