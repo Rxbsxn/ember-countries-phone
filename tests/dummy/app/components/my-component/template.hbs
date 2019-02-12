@@ -1,4 +1,8 @@
 xxx:
-<div class="test">
-  {{ember-countries-phone}}
-</div>
+{{!-- <div class="test"> --}}
+  {{#ember-countries-phone as |t|}}
+    {{t.countrySelect}}
+    {{t.phoneInput}}
+    <button {{action t.t}}>Hello</button>
+  {{/ember-countries-phone}}
+{{!-- </div> --}}

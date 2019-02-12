@@ -1,19 +1,30 @@
 .ember-countries-phone {
   display: flex;
-  align-content: flex-start
+  padding: 5px;
 }
 
-.selected-country__flag {
+.ember-countries-phone__country-select {
+  width: 200px;
 }
 
-.selected-country__dial-code {
-  margin-left: 5px;
+.ember-countries-phone__phone-input {
+
 }
 
 .selected-country {
   display: flex;
 }
 
+.selected-country__flag {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.selected-country__dial-code {
+  margin-left: 5px;
+}
+
 .phone-input {
   overflow: auto;
+  flex: 1 1 auto;
 }

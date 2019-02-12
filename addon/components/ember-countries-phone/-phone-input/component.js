@@ -4,7 +4,7 @@ import layout from './template';
 export default Component.extend({
   layout,
 
-  classNames: ['phone-number-input'],
+  classNames: ['ember-countries-phone__phone-input'],
 
   minLength: "6",
   maxLength: "20",

@@ -5,7 +5,7 @@ import countries from '../../../utils/countries';
 export default Component.extend({
   layout,
 
-  classNames: ['country-select'],
+  classNames: ['ember-countries-phone__country-select'],
 
   searchField: 'name',
   countries: countries(),
