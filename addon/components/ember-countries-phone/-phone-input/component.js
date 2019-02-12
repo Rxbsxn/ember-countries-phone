@@ -9,7 +9,6 @@ export default Component.extend({
   minLength: "6",
   maxLength: "20",
   phoneInputClass: "phone-input",
-  phoneInputId: "phoneInput",
   placeholder: 'Phone number',
   required: true
 });
