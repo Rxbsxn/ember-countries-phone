@@ -9,7 +9,7 @@ export default Component.extend({
 
   country: null,
   phoneNumber: null,
-  classNames: ['ember-phone'],
+  classNames: ['ember-countries-phone'],
 
   disablePhoneInput: not('country'),
 

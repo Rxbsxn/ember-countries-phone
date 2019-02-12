@@ -3,7 +3,7 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd ember-phone`
+* `cd ember-countries-phone`
 * `npm install`
 
 ## Linting
