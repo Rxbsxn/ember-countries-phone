@@ -1,8 +1,7 @@
-xxx:
-{{!-- <div class="test"> --}}
-  {{#ember-countries-phone as |t|}}
-    {{t.countrySelect}}
-    {{t.phoneInput}}
-    <button {{action t.t}}>Hello</button>
-  {{/ember-countries-phone}}
-{{!-- </div> --}}
+{{#ember-countries-phone country=country phoneNumber=phoneNumber as |t|}}
+  {{t.countrySelect classNames="xxxx" placeholder="342432432432"}}
+  {{t.phoneInput classNames="xxxxfff"}}
+{{/ember-countries-phone}}
+
+{{phoneNumber}}
+{{country.dialCode}}

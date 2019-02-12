@@ -1,7 +1,7 @@
-{{ember-countries-phone/-country-select country=country}}
-
-{{ember-countries-phone/-phone-input
-  phoneNumber=phoneNumber
-  disablePhoneInput=disablePhoneInput
-  phoneInputValidation=(action "phoneInputValidation")
+{{yield
+  (hash
+    countrySelect=(component "ember-countries-phone/-country-select" country=country)
+    phoneInput=(component "ember-countries-phone/-phoneInput" phoneNumber=phoneNumber disablePhoneInput=disablePhoneInput phoneInputValidation=(action "phoneInputValidation"))
+  )
 }}
+
