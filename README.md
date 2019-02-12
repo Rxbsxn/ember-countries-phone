@@ -6,14 +6,13 @@
 Use Ember countries phone to handle problems with getting countries dial codes and phone number validation.
 
 ## Installation
-------------------------------------------------------------------------------
 
 ```
 ember install ember-countries-phone
 ```
 
 ## Usage
-------------------------------------------------------------------------------
+
 ### Basic invokation
 For basic using you only have to pass `country` and `phoneNumber` as holders for user input.
 
@@ -42,7 +41,6 @@ Then after submitting form by user, you can handle additional validation of phon
 ```
 
 ## Customization
-------------------------------------------------------------------------------
 
 You can easily customize each of component by adding certain properties
 
@@ -81,6 +79,5 @@ required // Check if phone number is required
 
 
 ### License
-------------------------------------------------------------------------------
 
 This project is licensed under the [MIT License](LICENSE.md).
